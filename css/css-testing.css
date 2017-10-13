@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+/* part1 */
+
+/* 没想到这么简单的一个东西弄了快二十分钟，真是小瞧了css，要吸取教训，脚踏实地一点啊 */
+.container {
+    height: 100px;
+    width: 1000px;
+}
+.part1-left {
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+.part1-right {
+    margin-left: 100px;
+    height: 100%;
+}
+/*
+ *工作碰到一个问题，右侧宽度不确定，左侧随右侧变化而变化，用到这里不太适合
+ * 后来我用定位完成了，感觉一般般
+*/

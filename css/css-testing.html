@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css-testing</title>
+    <!--<style>@import "css-testing.css";</style>-->
+    <style>@import url(css-testing.css);</style>
+</head>
+<style>
+    .div1, .div2 { border: 1px solid black; }
+</style>
+<body>
+<!-- part1
+    一个页面上两个div左右铺满整个浏览器，要保证左边的div一直为100px，右边的div跟随浏览器大小变化
+    -->
+<div class="container">
+    <div class="div1 part1-left"></div>
+    <div class="div1 part1-right"></div>
+</div>
+
+</body>
+</html>
